@@ -9,13 +9,30 @@ Brief explanation of the different modules:
 02) AWS only (with an autoscaling group).
 03) OpenStack, AWS and GCP servers all connected to an OpenStack load balancer.
 
+To run an example just enter into the module and execute "terraform apply". Remember that AWS and GCP do cost money (shouldn't be more than a few cents with this example).
+```bash
+cd 03_OpenStack_AWS_GCP
+terraform apply
+```
+After all the instances are initialized, you can see how the load balancer is going through all the created instances with the "multi_curl" script.
+```bash
+../multi_curl
+```
+At the end, don't forget to destroy the created instances to prevent over-spending.
+```bash
+terraform destroy
+```
+
 ## Requirements
 
 In order to run the examples you need appropriate access to an OpenStack system, AWS and GCP.
 
 #### OpenStack
 
-Make sure to run the user.rc file and terraform will capture the credentials from the environment variables (see tf_env.rc).
+After running your OpenStack environment's openrc file, make sure to source tf_env.rc and terraform will capture the credentials from the environment variables.
+```bash
+source tf_env.rc
+```
 
 In many cases the OpenStack environments are located behind a proxy. In that case I recommend to use the superb sshutle to make life easier.
 
