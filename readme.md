@@ -23,6 +23,8 @@ At the end, don't forget to destroy the created instances to prevent over-spendi
 terraform destroy
 ```
 
+![GitHub Logo](Terraform_demo.jpeg)
+
 ## Requirements
 
 In order to run the examples you need appropriate access to an OpenStack system, AWS and GCP.
