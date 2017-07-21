@@ -23,7 +23,7 @@ At the end, don't forget to destroy the created instances to prevent over-spendi
 terraform destroy
 ```
 
-![GitHub Logo](terraform_demo.jpeg)
+![GitHub Logo](terraform_hybrid.jpeg)
 
 ## Requirements
 

@@ -2,7 +2,7 @@
 
 You will need access to all clouds (see the main page for more information on that).
 
-![GitHub Logo](../terraform_demo.jpeg)
+![GitHub Logo](../terraform_hybrid.jpeg)
 
 This is a terraform demo created to show how to connect different cloud systems using terraform.
 
