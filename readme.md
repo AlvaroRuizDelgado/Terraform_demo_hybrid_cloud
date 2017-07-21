@@ -23,7 +23,7 @@ At the end, don't forget to destroy the created instances to prevent over-spendi
 terraform destroy
 ```
 
-![GitHub Logo](Terraform_demo.jpeg)
+![GitHub Logo](terraform_demo.jpeg)
 
 ## Requirements
 
@@ -43,6 +43,7 @@ https://github.com/apenwarr/sshuttle/blob/master/docs/how-it-works.rst
 #### AWS
 
 Terraform will auto-detect your credentials if you have the aws command line toolset installed. Otherwise you may need to export some variables to the environment:
+
 https://github.com/apenwarr/sshuttle/blob/master/docs/how-it-works.rst
 
 #### GCP
@@ -51,4 +52,5 @@ You will need a project and the appropriate credentials.
 1) Create a project for terraform and find its ID.
    You can find the ID by clicking on the name of the project in the GCP console. That will take you to a screen listing all projects and their IDs.
 2) Credentials JSON file. See Hashicorp's page on GCP for details on how to do it. You will have to set the path to this file in the provider section of main.tf.
-   https://www.terraform.io/docs/providers/google/index.html
+
+https://www.terraform.io/docs/providers/google/index.html
