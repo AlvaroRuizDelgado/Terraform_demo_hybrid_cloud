@@ -44,7 +44,9 @@ https://github.com/apenwarr/sshuttle/blob/master/docs/how-it-works.rst
 
 Terraform will auto-detect your credentials if you have the aws command line toolset installed. Otherwise you may need to export some variables to the environment:
 
-https://github.com/apenwarr/sshuttle/blob/master/docs/how-it-works.rst
+https://www.terraform.io/docs/providers/aws/
+
+http://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html
 
 #### GCP
 

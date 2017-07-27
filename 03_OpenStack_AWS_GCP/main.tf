@@ -238,7 +238,7 @@ resource "openstack_lb_member_v2" "aws-lb-member" {
   protocol_port = "${var.aws_server_port}"
 }
 
-# Linking the AWS instances with the OpenStack load balancer.
+# Linking the GCP instances with the OpenStack load balancer.
 resource "openstack_lb_member_v2" "gcp-lb-member" {
   count = 2
   pool_id    = "${openstack_lb_pool_v2.open_lb_pool.id}"
