@@ -5,4 +5,5 @@ venv
 *.pyc
 *.retry
 *.log
+*.terraform
 terraform.tfstate*

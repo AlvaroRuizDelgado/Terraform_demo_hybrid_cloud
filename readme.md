@@ -16,7 +16,7 @@ terraform apply
 ```
 After all the instances are initialized, you can see how the load balancer is going through all the created instances with the "multi_curl" script.
 ```bash
-../multi_curl
+../multi_curl LB_IP_ADDRESS
 ```
 At the end, don't forget to destroy the created instances to prevent over-spending.
 ```bash
