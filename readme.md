@@ -1,4 +1,4 @@
-## Terraform demo for OpenStack Days Tokyo 2017
+## Terraform demo for VM based hybrid cloud
 
 This is a terraform demo created to show how to connect different cloud systems using terraform.
 
