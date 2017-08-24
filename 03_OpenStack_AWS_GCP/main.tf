@@ -54,8 +54,10 @@ resource "google_compute_instance" "gcp-server" {
   machine_type = "f1-micro"
   zone         = "us-central1-a"
 
-  disk {
-    image = "${var.centos7_gcp}"
+  boot_disk {
+    initialize_params {
+      image = "${var.centos7_gcp}"
+    }
   }
 
   network_interface {

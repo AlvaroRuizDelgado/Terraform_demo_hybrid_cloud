@@ -43,6 +43,6 @@ variable "gcp_project" {
 
 variable "centos7_gcp" {
   description = "Name of the Centos 7 image in GCP."
-  default = "centos-7-v20170717"
+  default = "centos-7-v20170816"
   type = "string"
 }
