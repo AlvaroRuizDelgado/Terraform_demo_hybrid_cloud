@@ -116,7 +116,7 @@ resource "aws_instance" "aws_server" {
   provider = "aws"
   count = 2
 
-  ami = "${var.centos7_ami}"
+  ami = "${var.ubuntu_ami}"
   instance_type = "t2.micro"
   vpc_security_group_ids = ["${aws_security_group.webserver_sg.id}"]
 

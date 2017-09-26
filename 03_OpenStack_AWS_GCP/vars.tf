@@ -20,12 +20,15 @@ variable "centos7_openstack" {
 variable "aws_region" {
   description = "AWS region (affects billing)."
   default = "us-west-2"
+#  default = "ap-northeast-1"
   type = "string"
 }
 
-variable "centos7_ami" {
-  description = "AMI of Centos 7 in AWS (US-West-2)."
+variable "ubuntu_ami" {
+  description = "AMI of Ubuntu in AWS (US-West-2)."
   default = "ami-835b4efa"
+#  description = "AMI of Ubuntu in AWS (Tokyo)."
+#  default = "ami-ea4eae8c"
   type = "string"
 }
 

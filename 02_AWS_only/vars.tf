@@ -10,8 +10,8 @@ variable "aws_region" {
   type = "string"
 }
 
-variable "centos7_ami" {
-  description = "AMI of Centos 7 in AWS (US-West-2)."
+variable "ubuntu_ami" {
+  description = "AMI of Ubuntu in AWS (US-West-2)."
   default = "ami-835b4efa"
   type = "string"
 }

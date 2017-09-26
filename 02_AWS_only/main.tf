@@ -11,7 +11,7 @@ resource "aws_vpc" "example_vpc" {
 }
 
 resource "aws_launch_configuration" "example" {
-  image_id = "${var.centos7_ami}"
+  image_id = "${var.ubuntu_ami}"
   instance_type = "t2.micro"
   security_groups = ["${aws_security_group.webserver_sg.id}"]
 
